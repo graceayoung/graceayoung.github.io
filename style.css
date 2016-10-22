@@ -1,80 +1,73 @@
 body{
 			background-color: #77ffcb;
-			
+			width: 100%;
+			height: 100%;
 			padding: 0;
 			margin: 0;
 		}
 
-#text{
-	align-content: center;
-	width: 100%;
-	height: 100%;
-	min-width: 1000;
-	min-height: 1000;
-}
-
 #valerie{
 	position: fixed;
-	width:700;
+	width:55%;
 	align-content: center;
 	top:-1;
-	z-index: -4;
-}
-
-h1{
-	color: white;
-	font-family: shoreland;
-	font-size: 75;
-	position: fixed;
-	top: -20;
-	right: 140;
-	text-align: left;
-}
-
-h2{
-	color: white;
-	font-family: shoreland;
-	font-size: 55;
-	position: fixed;
-	top: 125;
-	right: 450;
-	text-align: left;
+	/*z-index: -4;*/
 }
 
 #darkerTri{
 	width: 0;
 	height: 0;
-	border-top: 585 solid transparent;
+	border-top: 590 solid transparent;
 	border-right: 1000px solid #0a9cd6;
 	border-bottom: 0px solid transparent;
 	position: fixed;
-	top: 70;
+	top: 10%;
 	right: 0;
-	z-index: -3;
+	/*z-index: -3;*/
 }
 
 #lighterTri{
 	width: 0;
 	height: 0;
-	border-top: 515 solid transparent;
+	border-top: 520 solid transparent;
 	border-right: 880px solid #42b0f4;
 	border-bottom: 0px solid transparent;
 	position: fixed;
-	top: -515;
-	right: -1000;
-	z-index: -2;
+	top: 20%;
+	right: 0;
+	/*z-index: -2;*/
 }
 
 #lightestTri{
 	width: 0;
 	height: 0;
-	border-top: 445 solid transparent;
+	border-top: 455 solid transparent;
 	border-right: 760 solid #5bd5f7;
 	border-bottom: 0 solid transparent;
 	position: fixed;
-	top: -445;
-	right: -880;
-	z-index: -1;
+	top: 30%;
+	right: 0;
+	/*z-index: -1;*/
+}
+
+h1{
+	color: white;
+	font-family: shoreland;
+	font-size: 450%;
+	position: fixed;
+	top: 0%;
+	right: 12%;
+	text-align: center;
+}
+
+h2{
+	color: white;
+	font-family: shoreland;
+	font-size: 350%;
+	position: fixed;
+	top: 20%;
+	right: 30%;
+	text-align: center;
 }
 
 @font-face{
