@@ -53,7 +53,7 @@ body{
 h1{
 	color: white;
 	font-family: shoreland;
-	font-size: 450%;
+	font-size: 4.8vw;
 	position: fixed;
 	top: 0%;
 	right: 12%;
@@ -63,7 +63,7 @@ h1{
 h2{
 	color: white;
 	font-family: shoreland;
-	font-size: 350%;
+	font-size: 5.1vw;
 	position: fixed;
 	top: 20%;
 	right: 30%;
