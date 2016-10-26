@@ -1,29 +1,30 @@
 body{
 			background-color: #77ffcb;
-			width: 100%;
-			height: 100%;
+			width: auto;
+			height: auto;
 			padding: 0;
 			margin: 0;
+			font-size: 100%;
+			position: relative;
 		}
 
 #valerie{
-	position: fixed;
-	height: 100%;
+	position: relative;
+	height:100%;
 	align-content: center;
 	top:-1;
-	/*z-index: -4;*/
+	min-width: 500px;
 }
 
 #darkerTri{
 	width: 0;
 	height: 0;
-	border-top: 590 solid transparent;
-	border-right: 1000px solid #0a9cd6;
-	border-bottom: 0px solid transparent;
-	position: fixed;
-	top: 10%;
-	right: 0;
-	/*z-index: -3;*/
+	border-top: 630 solid transparent;
+	border-right: 1300px solid #0a9cd6;
+	border-bottom: 630 solid transparent;
+	position: absolute;
+	top: 20%;
+	right: 0%;
 }
 
 #lighterTri{
@@ -31,11 +32,10 @@ body{
 	height: 0;
 	border-top: 520 solid transparent;
 	border-right: 880px solid #42b0f4;
-	border-bottom: 0px solid transparent;
-	position: fixed;
-	top: 20%;
-	right: 0;
-	/*z-index: -2;*/
+	border-bottom: 520 solid transparent;
+	position: absolute;
+	top: 30%;
+	right: 0%;
 }
 
 #lightestTri{
@@ -43,18 +43,17 @@ body{
 	height: 0;
 	border-top: 455 solid transparent;
 	border-right: 760 solid #5bd5f7;
-	border-bottom: 0 solid transparent;
-	position: fixed;
-	top: 30%;
-	right: 0;
-	/*z-index: -1;*/
+	border-bottom: 455 solid transparent;
+	position: absolute;
+	top: 40%;
+	right: 0%;
 }
 
 h1{
 	color: white;
 	font-family: shoreland;
-	font-size: 4.8vw;
-	position: fixed;
+	font-size: 5.1vw;
+	position: absolute;
 	top: 0%;
 	right: 12%;
 	text-align: center;
@@ -63,10 +62,10 @@ h1{
 h2{
 	color: white;
 	font-family: shoreland;
-	font-size: 5.1vw;
-	position: fixed;
+	font-size: 4.8vw;
+	position: absolute;
 	top: 20%;
-	right: 25%;
+	right: 29%;
 	text-align: center;
 }
 
