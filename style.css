@@ -8,7 +8,7 @@ body{
 
 #valerie{
 	position: fixed;
-	width:55%;
+	height: 100%;
 	align-content: center;
 	top:-1;
 	/*z-index: -4;*/
